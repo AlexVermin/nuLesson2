@@ -1,8 +1,6 @@
 mYear = None
 while True:
-    if mYear is None:
-        pass
-    else:
+    if mYear is not None:
         if mYear.isdigit():
             nYear = int(mYear)
             if 1799 == nYear:
@@ -14,9 +12,7 @@ while True:
     mYear = input('Введите год рождения А.С.Пушкина: ')
 mDay = None
 while True:
-    if mDay is None:
-        pass
-    else:
+    if mDay is not None:
         if mDay.isdigit():
             nDay = int(mDay)
             if 26 == nDay:

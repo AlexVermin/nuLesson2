@@ -1,8 +1,6 @@
 mYear = None
 while True:
-    if mYear is None:
-        pass
-    else:
+    if mYear is not None:
         if mYear.isdigit():
             nYear = int(mYear)
             if 1799 == nYear:
